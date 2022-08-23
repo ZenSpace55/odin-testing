@@ -15,3 +15,7 @@ test('test product', () => {
 test('test quotient', () => {
     expect(calc.quotient(40, 5)).toBe(8)
 })
+
+test('test quotient', () => {
+    expect(calc.quotient(40, 0)).toBe("ERROR")
+})
